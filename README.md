@@ -1,11 +1,11 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jerrynavi/react-redux-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jerrynavi/react-redux-template/alerts/)
+
 # React Redux Starter Template
 
 ## !!! Important
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 See the section at the end for instructions on running and building the app.
-
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jerrynavi/react-redux-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jerrynavi/react-redux-template/alerts/)
 
 ## Project Overview
 
