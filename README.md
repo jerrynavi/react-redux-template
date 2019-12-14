@@ -42,6 +42,8 @@ Reusable functions and other utilities are under the `src/utils` directory.
 
 ## Available Scripts
 
+All of the following commands can also be run using the yarn package manager. Make sure to run `npm install` or `yarn install` before you start using this project.
+
 In the project directory, you can run:
 
 ### `npm start`
