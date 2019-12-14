@@ -1,4 +1,4 @@
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jerrynavi/react-redux-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jerrynavi/react-redux-template/alerts/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jerrynavi/react-redux-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jerrynavi/react-redux-template/alerts/) [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/jerrynavi/react-redux-template.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jerrynavi/react-redux-template/context:javascript)
 
 # React Redux Starter Template
 
