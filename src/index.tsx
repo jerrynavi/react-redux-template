@@ -1,21 +1,25 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { store } from './store';
 import { Provider } from 'react-redux';
 import './index.scss';
 import * as serviceWorker from './serviceWorker';
-import Home from './pages/home/Home';
-import ErrorPage from './pages/error/ErrorPage';
 import Footer from './components/footer/Footer';
+import Progress from 'react-topbar-progress-indicator';
+
+const Home = lazy(() => import('./pages/home/Home'));
+const ErrorPage = lazy(() => import('./pages/error/ErrorPage'));
 
 ReactDOM.render(
     <Provider store={store}>
         <Router>
-            <Switch>
-                <Route exact path="/" component={Home} />
-                <Route path="*" component={ErrorPage} />
-            </Switch>
+            <Suspense fallback={<Progress />}>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="*" component={ErrorPage} />
+                </Switch>
+            </Suspense>
         </Router>
         <Footer />
     </Provider>,
