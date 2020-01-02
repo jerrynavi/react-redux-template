@@ -7,6 +7,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 See the section at the end for instructions on running and building the app.
 
+## Features
+
+- Basic Redux setup with Redux Toolkit
+- Routing with React Router
+- Lazy-loaded Pages
+- Server-side Rendering (SSR)
+
 ## Project Overview
 
 There are a few things to note before you get started:
@@ -66,3 +73,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
+
+### `npm serve` (Optional)
+
+Enables you use server-side rendering (SSR) using the production build of your app. Make sure to run `npm build` first.
